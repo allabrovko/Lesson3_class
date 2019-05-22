@@ -19,8 +19,7 @@ namespace ConsoleApp9
                 result = a / b;
                 Console.WriteLine($"Result is: {result}");
 
-            }           
-             
+            }             
         }
     }
 }
