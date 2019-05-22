@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp9
 {
@@ -19,7 +15,21 @@ namespace ConsoleApp9
                 result = a / b;
                 Console.WriteLine($"Result is: {result}");
 
-            }             
+            }
+
+            {
+                Console.WriteLine("площадь");
+                a = 13.5; b = 7;
+                if ((a - b)< 0)
+                    Console.WriteLine("радиус отверстия не может быть больше радиуса кольца");
+                else
+                {
+                    result = Math.PI*((a*a)- (b*b));
+                    Console.WriteLine($"Result is: {result}");
+
+                }
+
+            }
         }
     }
 }
